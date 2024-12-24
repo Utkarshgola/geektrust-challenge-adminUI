@@ -1,0 +1,18 @@
+.search-bar-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  

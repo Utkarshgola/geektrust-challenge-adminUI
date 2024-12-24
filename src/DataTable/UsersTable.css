@@ -1,0 +1,80 @@
+/* UsersTable.css */
+
+/* General table styles */
+.table {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employeeTable th,
+  .employeeTable td {
+    padding: 12px 25px;
+    text-align: left;
+    
+  }
+  
+  .employeeTable th {
+    background-color: #f4f4f4;
+    color: #1a1a1a;
+  }
+  
+  .selected-row {
+    background-color: lightgray;
+  }
+  
+  
+  
+
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+
+  .delete button {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  
+
+  .delete-row{
+    color: #ff5c5c;
+  }
+  
+  
